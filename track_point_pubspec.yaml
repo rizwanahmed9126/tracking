@@ -1,0 +1,162 @@
+name: flutter_map_marker_animation_example
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "pub.dev" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  geolocator: ^7.0.3
+  google_maps_flutter: ^2.0.3
+  google_maps_flutter_platform_interface: ^2.0.2
+  async: ^2.4.2
+  flutter_polyline_points: ^0.2.4
+  #flutter_polyline_points: ^0.1.0
+  maps_toolkit: ^1.1.0+2
+  hidden_drawer_menu: ^1.1.2
+  flutter_zoom_drawer: ^2.0.1
+  animations: ^1.1.2
+  flutter_staggered_grid_view: ^0.3.3
+  flutter_datetime_picker: ^1.5.0
+  flutter_spinkit: "^2.1.0"
+  flutter_staggered_animations: "^0.1.2"
+  font_awesome_flutter:
+  animated_text: ^1.0.2
+  we_slide: ^1.0.3
+  flutter_compass: ^0.6.0
+  flutter_map: ^0.12.0
+  bottom_navy_bar: ^5.5.0
+  introduction_screen: ^1.0.9
+  flutter_animarker: ^3.2.0
+  #flutter_animarker: ^1.0.0
+  location: ^4.1.1
+  #location: any
+  #auto_size_text: ^2.1.0
+  polyline: ^1.0.2
+  date_time_picker: "^2.0.0"
+  google_fonts: any
+  flutter_screenutil: ^5.0.0+2
+  draggable_bottom_sheet: ^0.1.2
+  provider: ^5.0.0
+  progress_dialog: ^1.2.4
+  carousel_slider: ^2.3.1
+  flutter_typeahead: ^3.1.3
+  get: ^4.1.4
+  material_floating_search_bar: ^0.3.4
+  flutter_feather_icons: ^2.0.0+1
+  marquee_widget: ^1.0.0
+  velocity_x: ^3.2.0
+  auto_size_text: ^2.1.0
+  syncfusion_flutter_pdf: ^19.1.69-beta
+  path_provider: ^2.0.2
+  open_file: ^3.1.0
+  flutter_progress_hud: ^2.0.0
+  vector_math: ^2.1.0
+  form_field_validator: ^1.1.0
+  url_launcher: ^6.0.7
+  shared_preferences: ^2.0.6
+  expansion_tile_card: ^1.1.0
+  im_stepper: ^0.1.3
+  flutter_tts: ^3.2.1
+  speech_to_text: ^4.2.1
+  avatar_glow: ^2.0.1
+  toast: ^0.1.5
+  syncfusion_flutter_charts: ^19.2.44+1
+  speedometer: ^1.0.8
+  syncfusion_flutter_gauges: ^19.2.44
+  percent_indicator: ^3.0.1
+  draw_graph: ^1.0.0
+  charts_flutter: ^0.10.0
+  duration: ^3.0.6
+  easy_localization: ^3.0.0
+  jiffy: ^4.1.0
+
+
+
+
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  assets:
+    - assets/map_style.txt
+    - assets/image.jpg
+    - assets/images/
+    - assets/images/map.jpg
+    - assets/images/profile.png
+    - assets/images/ic_car.png
+    - assets/images/greenCar.png
+    - assets/Icons-01.png
+    - assets/Icons-02.png
+    - assets/Icons-03.png
+    - assets/Icons-04.png
+    - assets/Icons-05.png
+    - assets/Icons-06.png
+    - assets/Icons-07.png
+    - assets/Icons-08.png
+    - assets/Icons-09.png
+    - assets/Icons-10.png
+    - assets/tp.png
+    - assets/trans-anim.gif
+    - assets/trans-anim2.gif
+    - assets/trans-anim3.gif
+    - assets/Earth-.png
+    - assets/light.json
+    - assets/dashboard_pic.jpg
+    - assets/LiveLocation.png
+    - assets/Reports.png
+    - assets/Alarm.png
+    - assets/HistoryReplay.png
+    - assets/TripManagement.png
+    - assets/Tripmonitor.png
+    - assets/trans-anim1.jpg
+    - assets/truck.png
+    - assets/truck1.png
+    - assets/map-pin.png
+    - assets/
+    - assets/002.png
+    - assets/003.png
+    - assets/gps-tracking.png
+    - assets/maps.png
+    - assets/car.png
+    - assets/Map-Location-256.png
+    - assets/Data-Analysis-256.png
+    - assets/User-Profile-256.png
+    - assets/Publish-200.png
+    - assets/Settings.png
+    - assets/Car-01.png
+    - assets/settings1.png
+    - assets/user.png
+    - assets/car1.png
+    - assets/weather.png
+    - assets/weather_background.jpg
+    - assets/whatsapp.png
+    - assets/images/truckmarker1.png
